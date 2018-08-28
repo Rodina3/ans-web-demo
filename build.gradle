@@ -57,7 +57,7 @@ task integration(type: Test) {
     mustRunAfter test
 }
 
-check.dependsOn integration
+//check.dependsOn integration
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
